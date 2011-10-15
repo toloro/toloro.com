@@ -74,6 +74,12 @@ a.follow-link-linkedin {
 }
 
 
+.links ul li a, a.more, #edit-submit, #edit-preview, input.form-submit {
+   display: none
+}
+
+
+
 
 
 
