@@ -14,16 +14,46 @@
             <?php if ($site_name): ?>
             <span id="site-name"><a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a></span>
             <?php endif; ?>
+            
+          <!-- Header Menu. -->
+          <div id="header-menu">
+
+            <div id="header-menu-inside">
+                <?php 
+              $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu')); 
+              print drupal_render($main_menu_tree);
+              ?>
+            </div><!-- EOF: #header-menu-inside -->
+
+          </div><!-- EOF: #header-menu -->
+            
+            
+            
             <?php if ($site_slogan): ?>
             <span id="slogan"><?php print $site_slogan; ?></span>
             <?php endif; ?>
             </div><!-- /site-name-wrapper -->
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
             <?php endif; ?>
             
         </div>
             
         <div id="header-inside-right">
-		<?php print render($page['search_area']); ?>    
+          
+
+          
+          
+          <?php print render($page['search_area']); ?>    
         </div>
     
     </div><!-- EOF: #header-inside -->
@@ -31,16 +61,16 @@
 </div><!-- EOF: #header -->
 
 <!-- Header Menu. -->
-<div id="header-menu">
+<!--<div id="header-menu"> -->
 
-<div id="header-menu-inside">
+<!--<div id="header-menu-inside"> -->
     <?php 
-	$main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu')); 
-	print drupal_render($main_menu_tree);
+	/*$main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu')); 
+	print drupal_render($main_menu_tree);*/
 	?>
-</div><!-- EOF: #header-menu-inside -->
+<!--</div><!-- EOF: #header-menu-inside -->
 
-</div><!-- EOF: #header-menu -->
+<!-- </div> --><!-- EOF: #header-menu -->
 
 <!-- Banner. -->
 <div id="banner">

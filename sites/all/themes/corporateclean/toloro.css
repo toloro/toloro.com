@@ -79,7 +79,29 @@ a.follow-link-linkedin {
 }
 
 
+div#header div#header-inside div#header-inside-left div#header-menu{
+  display: inline;
+}
 
+
+div#header div#header-inside div#header-inside-left a img {
+  float: left;
+}
+
+
+div#header div#header-inside div#header-inside-left div.clearfix span#slogan {
+  float: left;
+  padding-left: 20px;
+  margin-top: -20px;
+  width: 740px;
+}
+
+div#header div#header-inside div#header-inside-left div#header-menu div#header-menu-inside {
+ margin-left: 273px;  
+ padding-left: 100px;
+ padding-top: 10px;
+ width: 700px;
+}
 
 
 
