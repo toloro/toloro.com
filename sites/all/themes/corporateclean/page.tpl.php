@@ -81,24 +81,26 @@
     
     <?php if ($is_front): ?>
     
+  <div id="slideshow-title">
+ 
+  </div>
     <!--slideshow-->
     <div id="slideshow">
-    
+      
         <!--slider-item-->
         <div class="slider-item">
             <div class="content">
                 
                 <!--slider-item content-->
-                <div style="float:left; padding:0 30px 0 0;">
+                <div style="padding:0 30px 0 0;">
                 <!--<img height="250px" class="masked" src="<?php /*print base_path() . drupal_get_path('theme', 'corporateclean') ;*/?>/mockup/slide-1.jpg"/> -->
-                <img height="250px"  class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/lincolnschoolpta.png"/>
-
+                  <a href="/content/lincoln-school-pta">
+                  <img height="250px"  class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/lincolnschoolpta.png"/>
+                  </a>
                 </div>
-                <h2>Lincoln School PTA</h2>
-                <strong></strong><br/>
-                <em>LincolnSchoolPTA.net</em><br/>
-                <br/>
-                This website is built on Drupal 6 and includes Views, CCK, forums, etc.
+               <a href="/content/lincoln-school-pta">Lincoln School PTA</a>
+
+                <!--This website is built on Drupal 6 and includes Views, CCK, forums, etc.-->
                 <!--<div style="display:block; padding:30px 0 10px 0;"><a class="more" href="#">Tell me more</a></div>-->
                 <!--EOF:slider-item content-->
                 
@@ -109,20 +111,18 @@
         <!--slider-item-->
         <div class="slider-item">
             <div class="content">
-            
                 <!--slider-item content-->
-                <div style="float:right; padding:0 0 0 30px;">
+                <div style="padding:0 0 0 30px;">
+                <a href="/content/digital-broadcasting-group">
                 <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/dbg.png"/>
+                </a>
                 </div>
-                <h2>Digital Broadcasting Group</h2>
-                <strong></strong><br/>
-                <em>beta.dbg.tv</em><br/>
-                <br/>
-                migrating their current Flash website to a beta website built on Drupal 7 as phase 1 of a mulitphase redesign of their website.
-                The projected included Drupal 7, Views, Panels, custom CSS, social software and SEO.
+                <a href="/content/digital-broadcasting-group">Digital Broadcasting Group</a>
+                
+                <!--migrating their current Flash website to a beta website built on Drupal 7 as phase 1 of a mulitphase redesign of their website.
+                The projected included Drupal 7, Views, Panels, custom CSS, social software and SEO.-->
                 <!--<div style="display:block; padding:30px 0 10px 0;"><a class="more" href="#">Tell me more</a></div>-->
                 <!--EOF:slider-item content-->
-            
             </div>
         </div>
         <!--EOF:slider-item-->
@@ -132,16 +132,15 @@
             <div class="content">
             
                 <!--slider-item content-->
-                <div style="float:left; padding:0 30px 0 0;">
+                <div style="padding:0 30px 0 0;">
                 <!--<img height="250px" class="masked" src="<?php /*print base_path() . drupal_get_path('theme', 'corporateclean') ;*/?>/mockup/slide-1.jpg"/> -->
+                <a href="/content/writers-network">
                 <img height="250px"  class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/TheWritersNetwork_crop.png"/>
-
+                </a>
                 </div>
-                <h2>The Writers Network</h2>
-                <strong></strong><br/>
-                <em>www.writersnetwork.com</em><br/>
-                <br/>
-                Drupal specialist for main framework of articles publishing site. 
+                <a href="/content/writers-network">The Writers Network</a>
+
+                <!--Drupal specialist for main framework of articles publishing site.--> 
                 <!--<div style="display:block; padding:30px 0 10px 0;"><a class="more" href="#">Tell me more</a></div>-->
                 <!--EOF:slider-item content-->
             
@@ -154,14 +153,14 @@
             <div class="content">
             
                 <!--slider-item content-->
-                <div style="float:right; padding:0 0 0 30px;">
+                <div style="padding:0 0 0 30px;">
+                <a href="/content/adidas-moves-pulse">
                 <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/adidasMovesPulse_crop.png"/>
+                </a>
                 </div>
-                <h2>Adidas moves pulse</h2>
-                <strong></strong><br/>
-                <em>www.pulsefragrance.com</em><br/>
-                <br/>
-                Created Phase 1 upload and voting Drupal site to promote adidas Moves Pulse for teenagers.
+                <a href="/content/adidas-moves-pulse">Adidas moves pulse</a>
+
+                <!--Created Phase 1 upload and voting Drupal site to promote adidas Moves Pulse for teenagers.-->
                 <!--<div style="display:block; padding:30px 0 10px 0;"><a class="more" href="#">Tell me more</a></div>-->
                 <!--EOF:slider-item content-->
             
@@ -174,16 +173,17 @@
             <div class="content">
             
                 <!--slider-item content-->
-                <div style="float:left; padding:0 30px 0 0;">
+                
+                <div style="padding:0 30px 0 0;">
                 <!--<img height="250px" class="masked" src="<?php /*print base_path() . drupal_get_path('theme', 'corporateclean') ;*/?>/mockup/slide-1.jpg"/> -->
-                <img height="250px"  class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/TreZUnique_holiday_crop.png"/>
-
+                <a href="/content/innovative-credit-consultants">  
+                <img height="250px"  class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/InnovativeCreditConsultants_740px.png"/>
+                </a>
                 </div>
-                <h2>Trez'Unique Kidz Clothing</h2>
-                <strong></strong><br/>
-                <em>trezunique.com</em><br/>
-                <br/>
-                Added modules to Zen Cart ecommerce site for SEO and other functions.
+                <a href="/content/innovative-credit-consultants">Innovative Credit Consultants</a>
+                
+                
+                <!--Innovative Credit Repair - an ethical credit repair company, customers only pay for results - includes a Drupal Knowledge Center. Design by Danny Glix/Colorfury.-->
                 <!--<div style="display:block; padding:30px 0 10px 0;"><a class="more" href="#">Tell me more</a></div>-->
                 <!--EOF:slider-item content-->
             
@@ -196,16 +196,15 @@
             <div class="content">
             
                 <!--slider-item content-->
-                <div style="float:right; padding:0 0 0 30px;">
+                <div style="padding:0 0 0 30px;">
+                <a href="/content/unitarian-universalist-congregation-palisades">  
                 <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/uucpalisades.png"/>
-                <!--     -->
-                </div>
-                <h2>Unitarian Universalist Congregation of the Palisades</h2>
-                <strong></strong><br/>
-                <em>uucpalisades.org</em><br/>
-                <br/>
-                Unitarian Universalist Congregation of the Palisades is an intentionally diverse, anti-racist, welcoming community of faith. 
-                We believe that love, truth, and compassion are common needs that unify all people regardless of race, sex, gender expression, sexuality or religion.
+                </a>
+                </div>          
+                <a href="/content/unitarian-universalist-congregation-palisades">Unitarian Universalist Congregation of the Palisades</a>
+
+                <!--Unitarian Universalist Congregation of the Palisades is an intentionally diverse, anti-racist, welcoming community of faith. 
+                We believe that love, truth, and compassion are common needs that unify all people regardless of race, sex, gender expression, sexuality or religion.-->
                 <!--<div style="display:block; padding:30px 0 10px 0;"><a class="more" href="#">Tell me more</a></div>-->
                 <!--EOF:slider-item content-->
             

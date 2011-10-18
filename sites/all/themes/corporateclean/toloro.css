@@ -16,12 +16,7 @@
 }*/
 
 
-/*table, td.tlr-x-profiles-row-1 {
-  border-top-style : none;
-  border-bottom-style : none;
-  border-left-style : none;
-  border-right-style: none;
-}*/
+
 
 table, td.tlr-x-profiles-row-1 {
   border-top-style : none;
@@ -62,17 +57,17 @@ a.follow-link-linkedin {
 	background-image: url(images/icons/large/icon-linkedin.png);
 }
 
-#slideshow h2 {
-    color: #222222;
-    display: block;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-}
 
+#slideshow a {
+    /*color: #1487D4;*/
+    color: #7A7A7A;
+    display: block; 
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    text-align: center;
+}
 
 .links ul li a, a.more, #edit-submit, #edit-preview, input.form-submit {
    display: none
@@ -104,5 +99,91 @@ div#header div#header-inside div#header-inside-left div#header-menu div#header-m
 }
 
 
+div#banner div#slideshow div.slider-item div.content div img.masked {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+
+div#content div#content-inside.inside div#main div#console.clearfix div.messages {
+  display: none;
+}
+
+div#overlay div#overlay-content.clearfix div#page div#content.clearfix div#console.clearfix div.messages {
+  
+  display: none;
+}
 
 
+.tlr-service-title {
+    /*color: #222222;*/
+    color: #1487D4;
+    /*color: #0099CC*/
+    /*font-size: 18px;*/
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom:10px;
+}
+
+.tlr-service-description {
+  
+  
+    font-size: 1.1em;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.tlr-corporate-profile {
+  
+  font-size: 1.5em;
+  margin-bottom:20px;
+  padding-bottom:10px;
+  text-align: justify;
+}
+
+.tlr-corporate-description {
+  
+  font-size: 1.5em;
+  margin-bottom:20px;
+  padding-bottom:10px;
+  text-align: justify;
+}
+
+.tlr-executive-name {
+  
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #1487D4;
+}
+
+.tlr-executive-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.tlr-executive-description {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.tlr-welcome-title {
+  color: #1487D4;
+  font-size:2em;
+  margin-bottom:10px;
+  padding-bottom:20px;
+  text-align: left;
+  
+}
+
+.tlr-welcome-description {
+    font-size: 1.2em;
+    margin-top: 10px;
+    padding-top: 20px;
+    text-align: justify;
+    width: 920px;
+}
