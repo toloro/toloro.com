@@ -94,11 +94,11 @@
                 <!--slider-item content-->
                 <div style="padding:0 30px 0 0;">
                 <!--<img height="250px" class="masked" src="<?php /*print base_path() . drupal_get_path('theme', 'corporateclean') ;*/?>/mockup/slide-1.jpg"/> -->
-                  <a href="/content/lincoln-school-pta">
-                  <img height="250px"  class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/lincolnschoolpta.png"/>
+                  <a href="<?php echo $base_path?>content/lincoln-school-pta">
+                  <img height="360px"  class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/lspta8.png"/>
                   </a>
                 </div>
-               <a href="/content/lincoln-school-pta">Lincoln School PTA</a>
+               <a href="<?php echo $base_path?>content/lincoln-school-pta">Lincoln School PTA</a>
 
                 <!--This website is built on Drupal 6 and includes Views, CCK, forums, etc.-->
                 <!--<div style="display:block; padding:30px 0 10px 0;"><a class="more" href="#">Tell me more</a></div>-->
@@ -113,11 +113,11 @@
             <div class="content">
                 <!--slider-item content-->
                 <div style="padding:0 0 0 30px;">
-                <a href="/content/digital-broadcasting-group">
-                <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/dbg.png"/>
+                <a href="<?php echo $base_path?>content/digital-broadcasting-group">
+                <img height="360px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/dbg4.png"/>
                 </a>
                 </div>
-                <a href="/content/digital-broadcasting-group">Digital Broadcasting Group</a>
+                <a href="<?php echo $base_path?>content/digital-broadcasting-group">Digital Broadcasting Group</a>
                 
                 <!--migrating their current Flash website to a beta website built on Drupal 7 as phase 1 of a mulitphase redesign of their website.
                 The projected included Drupal 7, Views, Panels, custom CSS, social software and SEO.-->
@@ -134,11 +134,11 @@
                 <!--slider-item content-->
                 <div style="padding:0 30px 0 0;">
                 <!--<img height="250px" class="masked" src="<?php /*print base_path() . drupal_get_path('theme', 'corporateclean') ;*/?>/mockup/slide-1.jpg"/> -->
-                <a href="/content/writers-network">
-                <img height="250px"  class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/TheWritersNetwork_crop.png"/>
+                <a href="<?php echo $base_path?>content/writers-network">
+                <img height="360px"  class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/TheWritersNetwork2.png"/>
                 </a>
                 </div>
-                <a href="/content/writers-network">The Writers Network</a>
+                <a href="<?php echo $base_path?>content/writers-network">The Writers Network</a>
 
                 <!--Drupal specialist for main framework of articles publishing site.--> 
                 <!--<div style="display:block; padding:30px 0 10px 0;"><a class="more" href="#">Tell me more</a></div>-->
@@ -154,11 +154,11 @@
             
                 <!--slider-item content-->
                 <div style="padding:0 0 0 30px;">
-                <a href="/content/adidas-moves-pulse">
-                <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/adidasMovesPulse_crop.png"/>
+                <a href="<?php echo $base_path?>content/adidas-moves-pulse">
+                <img height="360px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/adidasMovesPulse_crop.png"/>
                 </a>
                 </div>
-                <a href="/content/adidas-moves-pulse">Adidas moves pulse</a>
+                <a href="<?php echo $base_path?>content/adidas-moves-pulse">Adidas moves pulse</a>
 
                 <!--Created Phase 1 upload and voting Drupal site to promote adidas Moves Pulse for teenagers.-->
                 <!--<div style="display:block; padding:30px 0 10px 0;"><a class="more" href="#">Tell me more</a></div>-->
@@ -176,11 +176,11 @@
                 
                 <div style="padding:0 30px 0 0;">
                 <!--<img height="250px" class="masked" src="<?php /*print base_path() . drupal_get_path('theme', 'corporateclean') ;*/?>/mockup/slide-1.jpg"/> -->
-                <a href="/content/innovative-credit-consultants">  
-                <img height="250px"  class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/InnovativeCreditConsultants_740px.png"/>
+                <a href="<?php echo $base_path?>content/innovative-credit-consultants">  
+                <img height="360px"  class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/InnovativeCreditConsultants_740px.png"/>
                 </a>
                 </div>
-                <a href="/content/innovative-credit-consultants">Innovative Credit Consultants</a>
+                <a href="<?php echo $base_path?>content/innovative-credit-consultants">Innovative Credit Consultants</a>
                 
                 
                 <!--Innovative Credit Repair - an ethical credit repair company, customers only pay for results - includes a Drupal Knowledge Center. Design by Danny Glix/Colorfury.-->
@@ -191,17 +191,17 @@
         </div>
         <!--EOF:slider-item-->
         
-                <!--slider-item-->
+        <!--slider-item-->
         <div class="slider-item">
             <div class="content">
             
                 <!--slider-item content-->
                 <div style="padding:0 0 0 30px;">
-                <a href="/content/unitarian-universalist-congregation-palisades">  
-                <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/uucpalisades.png"/>
+                <a href="<?php echo $base_path?>content/unitarian-universalist-congregation-palisades">  
+                <img height="360px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/images/uucpalisades2.png"/>
                 </a>
                 </div>          
-                <a href="/content/unitarian-universalist-congregation-palisades">Unitarian Universalist Congregation of the Palisades</a>
+                <a href="<?php echo $base_path?>content/unitarian-universalist-congregation-palisades">Unitarian Universalist Congregation of the Palisades</a>
 
                 <!--Unitarian Universalist Congregation of the Palisades is an intentionally diverse, anti-racist, welcoming community of faith. 
                 We believe that love, truth, and compassion are common needs that unify all people regardless of race, sex, gender expression, sexuality or religion.-->

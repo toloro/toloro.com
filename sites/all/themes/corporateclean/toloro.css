@@ -69,10 +69,17 @@ a.follow-link-linkedin {
     text-align: center;
 }
 
-.links ul li a, a.more, #edit-submit, #edit-preview, input.form-submit {
+/*.links ul li a, a.more, #edit-submit, #edit-preview, input.form-submit {
    display: none
+}*/
+
+.slider-item .content {
+  padding-top: 20px;
 }
 
+#slider-controls-wrapper {
+  padding-top: 10px;
+}
 
 div#header div#header-inside div#header-inside-left div#header-menu{
   display: inline;
@@ -116,6 +123,38 @@ div#overlay div#overlay-content.clearfix div#page div#content.clearfix div#conso
   display: none;
 }
 
+
+div#header{
+  height: 100px; 
+  
+}
+
+/*div#content div#content-inside.inside div#main.contextual-links-region div.region div#block-system-main.block div.content div.view div.view-content table.views-view-grid tbody td.tlr-portfolio{
+  border: none;
+}*/
+
+div.view div.view-content table.views-view-grid tbody td.tlr-portfolio {
+  border: none;
+}
+
+div.content div.view div.view-content table.views-view-grid tbody tr.row-2 td.col-3 {
+  
+  border: none;
+}
+
+div.content div.view div.view-content table.views-view-grid tbody tr.row-2 td.col-4 {
+  
+  border: none;
+}
+
+div.content div.view div.view-content table.views-view-grid tbody tr td.tlr-service-row {
+  border: none;
+}
+
+
+div#header div#header-inside{
+  padding-top: 20px;
+}
 
 .tlr-service-title {
     /*color: #222222;*/
@@ -187,3 +226,15 @@ div#overlay div#overlay-content.clearfix div#page div#content.clearfix div#conso
     text-align: justify;
     width: 920px;
 }
+
+
+.tlr-contact-block {
+  /*color: #1487D4;*/
+  //#7A7A7A;
+  font-size:2em;
+  text-align: left;
+  line-height: 1.2em;
+  
+  
+}
+
